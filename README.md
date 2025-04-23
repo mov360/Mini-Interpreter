@@ -131,9 +131,12 @@ _Please follow the instructions below to clone and run the code_
 <!-- How To Use EXAMPLES -->
 ## 📑How To Use
 
-Once you run the interpreter, you can start typing arithmetic expressions directly into the terminal.
-Please use only +,-,*,/ operations and write it in a same line. Example expression: 2    + 2*3
-Please do not write or input 'exit' unless you want to close the program.
+Once you run the interpreter, you can start typing arithmetic expressions directly into the terminal.  
+Please use only the following operators: `+`, `-`, `*`, `/`, `(`, `)`, and write the expression in a single line.  
+Example: `2 + 3 * (4 - 1)`  
+
+⚠️ Do not input `'exit'` unless you want to close the program.
+
 
 ```bash
     $ python3 main.py
