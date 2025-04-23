@@ -27,15 +27,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 📘About The Project
 
 It is a Basic Interpreter written in Python language. It is capable of handling basic arithmetic expressions and execute basic operations like addition, substraction, multiplication and dividation. It is also able to parse numbers and variables.
 
-The logics related the variables are still under development. I hope to add more functional supports to it in near future by adding equation solving, logarithomic operations and so on.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Features
+## 🚀Features
 * Tokenizes input expressions (`2 + 3 * (4 - 1)`)
 * Builds an Abstract Syntax Tree (AST)
 * Evaluates the expression using a recursive evaluator
@@ -43,41 +41,46 @@ The logics related the variables are still under development. I hope to add more
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project Structure
-
-mini_interpreter/
-│
-├── interpreter/
-│   ├── __init__.py
-│   ├── lexer.py        # Tokenizes the input string
-│   ├── parser.py       # Converts tokens into an AST
-│   └── evaluator.py    # Evaluates the AST
-│
-├── tests/
-│   ├── test_interpreter.py
-│   └── test_lexer.py
-├── interpreter.py     # Main entry point of the program
-├── README.md          # Project overview and usage guide
-└── tests.sh
-
+## 🔮Future Extensions
+* Equation solving and multi-variable support
+* Advanced mathematical functions (e.g., log, sqrt)
+* Better variable storage with scopes or environment frames
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🏗️Project Structure
+
+* mini_interpreter/
+    * interpreter/
+        * __init__.py      # Initializes the interpreter package.
+        * lexer.py         # Tokenizes the input string
+        * parser.py        # Converts tokens into an AST
+        * evaluator.py     # Evaluates the AST
+    * tests/
+        * test_interpreter.py
+        * test_lexer.py
+    * interpreter.py     # Main entry point of the program
+    * README.md          # Project overview and usage guide
+    *LICENSE
+    * tests.sh           # Script to run the Python tests using unittest.
 
 
-### Built With
+
+### 🦫Built With
 
 
 
 * Python 3
-* 
+* unittest 
+* Regex
+* Recursive Descent Parsing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🎬Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -105,25 +108,19 @@ Make sure you have Python 3 installed.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Please follow the instructions below to clone and run the code_
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/mov360/Mini-Interpreter.git
    ```
-3. Install NPM packages
+2. Navigate to the project repository
    ```sh
-   npm install
+   cd Mini-Interpreter
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+3. Run the interpreter
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   python3 interpreter.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,7 +128,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- How To Use EXAMPLES -->
-## How To Use
+## 📑How To Use
 
 Once you run the interpreter, you can start typing arithmetic expressions directly into the terminal.
 Please use only +,-,*,/ operations and write it in a same line. Example expression: 2    + 2*3
@@ -153,7 +150,8 @@ Please do not write or input 'exit' unless you want to close the program.
 
     >>> exit
     Goodbye!
-    ```
+  ```
+
 💡 Note: Currently, variables are not supported in the expression input.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,9 +160,9 @@ Please do not write or input 'exit' unless you want to close the program.
 
 
 <!-- LICENSE -->
-## License
+## 🪪License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +173,7 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 Mohammad Ullah  - ullahm2004@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [git clone https://github.com/mov360/Mini-Interpreter.git](MINI INTERPRETER)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
