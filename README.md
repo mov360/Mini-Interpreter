@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Mohammad Ullah  - ullahm2004@gmail.com
 
-Project Link: [git clone https://github.com/mov360/Mini-Interpreter.git](MINI INTERPRETER)
+Project Link: [MINI INTERPRETER](https://github.com/mov360/Mini-Interpreter.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
