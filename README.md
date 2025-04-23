@@ -83,8 +83,8 @@ It is a Basic Interpreter written in Python language. It is capable of handling 
 <!-- GETTING STARTED -->
 ## 🎬Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
+Please follow the steps below to set up the project locally.
 
 ### Prerequisites
 
