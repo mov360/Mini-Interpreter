@@ -60,7 +60,7 @@ It is a Basic Interpreter written in Python language. It is capable of handling 
     * tests/
         * test_interpreter.py
         * test_lexer.py
-    * interpreter.py     (_ Main entry point of the program_)
+    * interpreter.py     (_Main entry point of the program_)
     * README.md          (_Project overview and usage guide_)
     * LICENSE
     * tests.sh           (_Script to run the Python tests using unittest_)
@@ -101,9 +101,9 @@ Make sure you have Python 3 installed.
   ```
 * Windows:
   ```sh
-  ** Go to python.org/downloads
-  ** Download the latest version for Windows
-  ** Run the installer and check "Add Python to PATH"
+  1.Go to python.org/downloads
+  2.Download the latest version for Windows
+  3.Run the installer and check "Add Python to PATH"
   ```
 
 
@@ -133,7 +133,7 @@ _Please follow the instructions below to clone and run the code_
 
 Once you run the interpreter, you can start typing arithmetic expressions directly into the terminal.  
 Please use only the following operators: `+`, `-`, `*`, `/`, `(`, `)`, and write the expression in a single line.  
-Example: `2 + 3 * (4 - 1)`  
+Example: `2 + 3 * (4 - 1)`
 
 ⚠️ Do not input `'exit'` unless you want to close the program.
 
@@ -144,10 +144,10 @@ Example: `2 + 3 * (4 - 1)`
     Type your expression or 'exit' to quit.
 
     >>> 2 + 3 * 4
-    14
+    Result:14
 
     >>> (10 - 2) / 2
-    4.0
+    Result:4.0
 
     >>> 7 + (6 * 5^2 + 3)  # Invalid syntax as ^ is not supported
     Error: Unknown character: ^
