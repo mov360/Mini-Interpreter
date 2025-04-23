@@ -7,6 +7,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#features">Features</a></li>
+        <li><a href="#future-Extensions">Future Extensions</a></li>
         <li><a href="#project-structure">Project Structure</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -52,17 +53,17 @@ It is a Basic Interpreter written in Python language. It is capable of handling 
 
 * mini_interpreter/
     * interpreter/
-        * __init__.py      # Initializes the interpreter package.
-        * lexer.py         # Tokenizes the input string
-        * parser.py        # Converts tokens into an AST
-        * evaluator.py     # Evaluates the AST
+        * __init__.py   (_Initializes the interpreter package_)
+        * lexer.py     (_Tokenizes the input string_)
+        * parser.py    (_Converts tokens into an AST_)
+        * evaluator.py (_Evaluates the AST_)
     * tests/
         * test_interpreter.py
         * test_lexer.py
-    * interpreter.py     # Main entry point of the program
-    * README.md          # Project overview and usage guide
-    *LICENSE
-    * tests.sh           # Script to run the Python tests using unittest.
+    * interpreter.py     (_ Main entry point of the program_)
+    * README.md          (_Project overview and usage guide_)
+    * LICENSE
+    * tests.sh           (_Script to run the Python tests using unittest_)
 
 
 
@@ -71,7 +72,7 @@ It is a Basic Interpreter written in Python language. It is capable of handling 
 
 
 * Python 3
-* unittest 
+* unittest
 * Regex
 * Recursive Descent Parsing
 
